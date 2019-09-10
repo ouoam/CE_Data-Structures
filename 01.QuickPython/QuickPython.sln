@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "QuickPython", "QuickPython\QuickPython.pyproj", "{56A86EFC-D4C0-4BC5-BA62-CF3919989DDB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "test_max", "test_max\test_max.pyproj", "{5D7CBCB9-1D8D-486F-B806-CEC8751C54C5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab 4 Test", "Lab 4 Test\Lab 4 Test.pyproj", "{05108204-A117-430E-9114-01681DB29653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A86EFC-D4C0-4BC5-BA62-CF3919989DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A86EFC-D4C0-4BC5-BA62-CF3919989DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7CBCB9-1D8D-486F-B806-CEC8751C54C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7CBCB9-1D8D-486F-B806-CEC8751C54C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05108204-A117-430E-9114-01681DB29653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05108204-A117-430E-9114-01681DB29653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6855EB2A-9B4F-4F8E-AA71-CF54F95A8361}
+	EndGlobalSection
+EndGlobal
