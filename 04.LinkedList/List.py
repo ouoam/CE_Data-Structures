@@ -48,18 +48,22 @@ class List:
         return self.head == None
 
     def append(self, data):
+        data = data if isinstance(data, node) else node(data)
+        data.setNext(None)
         if self.head == None:
-            self.head = node(data)
+            self.head = data
         else:
             last = self.head
             p = self.head.next
             while p != None:
                 last = p
                 p = p.next
-            last.next = node(data)
+            last.next = data
 
     def addHead(self, data):
-        self.head = node(data, self.head)
+        data = data if isinstance(data, node) else node(data)
+        data.setNext(self.head)
+        self.head = data
 
     def isIn(self, data):
         p = self.head
