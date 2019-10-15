@@ -53,12 +53,10 @@ class List:
         if self.head == None:
             self.head = data
         else:
-            last = self.head
-            p = self.head.next
-            while p != None:
-                last = p
+            p = self.head
+            while p.next != None:
                 p = p.next
-            last.next = data
+            p.next = data
 
     def addHead(self, data):
         data = data if isinstance(data, node) else node(data)
