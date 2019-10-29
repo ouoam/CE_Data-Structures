@@ -174,16 +174,16 @@ t = BST()
 for ele in l:
     t.addI(ele)
 
-# t.inOrder()
-# t.preOrder()
-# t.postOrder()
+t.inOrder()
+t.preOrder()
+t.postOrder()
 t.printSideway()
 
-# print("search 20", t.search(20))
-# print("search 50", t.search(50))
+print("search 20", t.search(20))
+print("search 50", t.search(50))
 
-# print("path 20", t.path(20))
-# print("path 50", t.path(50))
+print("path 20", t.path(20))
+print("path 50", t.path(50))
 
 print("delete 20", t.delete(20))
 t.printSideway()
